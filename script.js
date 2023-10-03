@@ -7,7 +7,7 @@ function decimalToBinary(num) {
 	while(num>0){
 		const rem = num%2;
 		binary += rem;
-		num = Math.floor(num/2);
+		// num = Math.floor(num/2);
 	}
 	return binary;
   
